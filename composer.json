@@ -1,0 +1,19 @@
+{
+  "name": "ueef/exceptions",
+  "type": "library",
+  "authors": [
+    {
+      "name": "ueef",
+      "email": "artem@arkadev.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Ueef\\Exceptions\\": "src"
+    }
+  }
+}
