@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Edn\Vip\Exceptions;
+namespace Ueef\Exceptions;
 
 use Throwable;
 
