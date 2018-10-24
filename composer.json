@@ -1,6 +1,7 @@
 {
   "name": "ueef/exceptions",
   "type": "library",
+  "license": "MIT",
   "description": "",
   "authors": [
     {

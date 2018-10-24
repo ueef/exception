@@ -1,17 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Ueef\Exceptions\Http {
+namespace Ueef\Exceptions\Http;
 
-    use Throwable;
-    use Ueef\Exceptions\AbstractException;
-    use Ueef\Exceptions\Interfaces\HttpExceptionInterface;
+use Throwable;
+use Ueef\Exceptions\AbstractException;
+use Ueef\Exceptions\Interfaces\HttpExceptionInterface;
 
-    class NotFoundException extends AbstractException implements HttpExceptionInterface
+class NotFoundException extends AbstractException implements HttpExceptionInterface
+{
+    public function __construct($message = "", ?Throwable $previous = null)
     {
-        public function __construct($message = "", ?Throwable $previous = null)
-        {
-            parent::__construct($message, 404, $previous);
-        }
+        parent::__construct($message, 404, $previous);
     }
 }
